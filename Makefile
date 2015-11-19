@@ -10,8 +10,8 @@ build:
 	make -C src render-clean
 
 install:
-	@mkdir $(DST)
-	@mkdir $(SRC)/.render
+	mkdir -p $(DST)
+	mkdir -p $(SRC)/.render
 	npm install
 
 render-clean:
