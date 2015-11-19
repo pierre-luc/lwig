@@ -1,6 +1,6 @@
 {
   "name": "latex-template-engine",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Moteur de template swig pour latex",
   "main": "gulpfile.js",
   "scripts": {
