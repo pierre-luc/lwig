@@ -12,6 +12,8 @@ build:
 install:
 	mkdir -p $(DST)
 	mkdir -p $(SRC)/.render
+	mkdir -p $(SRC)/assets/packages
+	mkdir -p $(SRC)/assets/classes
 	npm install
 
 render-clean:
